@@ -3,5 +3,5 @@
  For contribuite with any repository, you need first:
  > 1. Fork the repository
  > 2. Upload or edit your contribuition in your forked repository
- > 3. Go to **Pull requestes** and do **New pull resquest**
+ > 3. Go to **Pull requests** and do **New pull resquest**
  > 4. **Send pull request**

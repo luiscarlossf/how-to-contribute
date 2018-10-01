@@ -30,7 +30,7 @@ int main()
 	else if (choice == 4) {
 		cout << a / b;
 	}
-	cout << "Type 1 to return to start, otherwise press any key" << endl;
+	cout << endl << "Type 1 to return to start, otherwise press any key" << endl;
 	cin >> choice;
 	if (choice == 1) { goto start; }
 	

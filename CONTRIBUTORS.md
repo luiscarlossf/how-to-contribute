@@ -1,2 +1,2 @@
 #Contributors
-- (Akshat Ahuja)[https://www.github.com/akshatah33]
+- [Akshat Ahuja](https://www.github.com/akshatah33)

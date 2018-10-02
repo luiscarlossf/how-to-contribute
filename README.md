@@ -1,6 +1,3 @@
-
-![Screenshot](./hacktober.jpg)
-
 # how-to-contribute
 
  This repository is for the participation in the 2018 Hacktoberfest. 

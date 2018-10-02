@@ -19,11 +19,11 @@ void multiplyarraywith(std::vector<int> &arr, int num)
 
 int main()
 {
-	std::vector<int> arr = { 1 };
+	std::cout << "Calculate factorial of: ";
 	int num;
-
-	//std::cout << "Calculate factorial of: ";
 	std::cin >> num;
+
+	std::vector<int> arr = { 1 };
 
 	for( int i = 2; i <= num; ++i )
 		multiplyarraywith( arr, i );

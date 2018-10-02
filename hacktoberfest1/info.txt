@@ -1,1 +1,0 @@
-ran outta time to help a repo out today. so have a .java that just prints to the console when ran (ya know after you compile it and such).

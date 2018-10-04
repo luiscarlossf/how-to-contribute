@@ -105,7 +105,7 @@ void inserirElemOrdenado(lista* a, Registro reg){
     
     ponteiroNovoLivro = buscarSequencialMaisAnterior(a, reg.chave, &anterior);
     
-    if (ponteiroNovoLivro != NULL) // elemento j· existe com a chave buscada
+    if (ponteiroNovoLivro != NULL) // elemento j√° existe com a chave buscada
         return;
     
     ponteiroNovoLivro = malloc(sizeof(itemLivro)); 

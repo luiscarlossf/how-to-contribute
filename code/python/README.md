@@ -2,13 +2,13 @@
  - Main functions :-
     - `playfair_enc(key,pt)`
         - _arguments_
-            - key **[reqd]**
+            - key (_string_ (no spaces)) **[reqd]**
             - pt (_plaintext_) as a _string_ **[reqd]**
         - _returns_
             - list of strings each of length two
     - `playfair_dec(key,ct)`
         - _arguments_
-            - key **[reqd]**
+            - key (_string_ (no spaces)) **[reqd]**
             - ct (_ciphertext_) as a _list_ of _strings_ i.e. the _ciphertext_ is split into chunks of length two(result of the `playfair_enc` function) **[reqd]**
         - _returns_
             - list of strings each of length two

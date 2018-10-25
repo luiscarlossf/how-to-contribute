@@ -1,0 +1,11 @@
+Flask can also have variable routes:
+
+Like:
+@app.route('hello/<name>')
+def hello_name(name):
+	return "Hello, %s" % name
+
+Default is string.
+
+But rules can be constructed using int,float 
+

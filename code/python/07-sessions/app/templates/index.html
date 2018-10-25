@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1>Hi, {{ user.nickname }}!</h1>
+    {% for post in posts %}
+    <div><p>{{ post.author.nickname }} says: <b>{{ post.body }}</b></p></div>
+    {% endfor %}
+    <hr>
+    <!-- Use URL For to Link to Other Routes in your app directly(Can be used to link to variable routes easily!) -->
+	<a href="{{ url_for('about') }}">Know More About Us</a> <br>
+	<!-- Or link to those routes directly -->
+	<a href="/about">This Also Works!</a> 
+	<h2> Login and Remember Us! </h2>
+	<form action="/setCookie" method="post">
+		<p> User ID:  <input type="text" name="userid"> </p>
+		<p> <input type="submit" value="Login!"> </p>
+	</form>
+{% endblock %}

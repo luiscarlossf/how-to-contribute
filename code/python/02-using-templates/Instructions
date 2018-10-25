@@ -1,0 +1,30 @@
+Why Templates?
+
+Sending data to create dynamic web pages.
+
+Want to keep the logic of the application seperate from the layout / presentation of the web pages.
+(Then you can code the backend part while a designer designs the front-end of your site.)
+
+Directory Structure :
+
+(Only changes are shown. Rest files are omitted!)
+
+Project-Directory
+	|
+	|--app/
+		|
+		| -- templates/
+			  | -- index.html
+			  |	-- base.html (New File Created)
+
+Used placeholders in the html file ( Enclosed in  {{..}} )
+
+Use Control Statements and Loops enclosed in {% .. %}
+
+Template Inheritance
+
+To keep an element common across all the pages/templates (or even some of those)
+Include it in the template
+(Example : Navbars)
+
+

@@ -1,0 +1,36 @@
+Forms are used to send data to server side scripts. 
+
+Can be used for creating login, signup functions etc.
+
+Project-Directory
+	|
+	|--app/
+		|
+		| -- views.py
+		| -- templates/
+			  | -- login.html (New File Created)
+
+Various HTTP Methods : GET and POST. Differences?
+
+By default, Flask responds to GET requests. 
+
+To consider other methods, we can provide 'methods' argument in route() decorator.
+
+HTTP Consists of 2 parts. The Request and Response
+
+Client --> Request --> Server
+Client <-- Response <- Server
+
+Any data sent from the client side is stored in "request" object
+
+If request is GET, request.args is a dictionary containing a pairs of parameter name and values
+
+If request is POST, value of parameters can be obtained from form data as request.form['<field-name>']
+
+request object also contains the following important attributes :
+
+Form - Dictionary containing key and value pairs of form parameter and values
+args - parsed contents of query string which is part of URL after '?'
+Cookies - Dictionary object holding Cookie names and values
+files - data pertaining to upload module
+method - current request method.

@@ -1,4 +1,5 @@
 # how-to-contribute
+# como contribuir
 
  This repository is for the participation in the 2018 Hacktoberfest. 
  To contribute with any repository, you first need to:

@@ -1,0 +1,20 @@
+Cookies are stored in client's computer as text files and its purpose is to remember and track data pertaining to a client's usage.
+
+Request Object contain's a cookie attribute.
+It's a dictionary object of all cookie variables and their values that a client transmits.
+
+Project-Directory
+	|
+	|--app/
+		|
+		| -- views.py
+		| -- templates/
+			  | -- index.html
+			  | -- landing.html
+
+To Make Cookies :
+
+We'll use 'make_response' method to create a response object. 
+Then we can use 'set_cookie' method to create the cookies.
+
+Cookies can be used to store user statistics and etc.

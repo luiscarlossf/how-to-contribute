@@ -1,0 +1,17 @@
+url_for() can be used to dynamically build URL for a specific function
+
+The function accepts the name of a function as first argument and one or more keyword arguments each corresponding to variable part of URL.
+
+Can be used to link to certain pages 
+
+Or redirect to some pages?
+
+See the changes in "index.html"
+
+Project-Directory
+	|
+	|--app/
+		|
+		| -- templates/
+			  | -- index.html
+			  | -- about.html (New File Created)

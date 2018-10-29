@@ -1,0 +1,19 @@
+Unlike cookies, 'Session' data are stored on Server.
+Session data is stored crpytographically and thus you need to define a secret key for your app.
+
+It is also a dictionary object containing key-value pairs of session variables and associated values.
+
+Project-Directory
+	|
+	|--run.py
+	|--app/
+		|
+		| -- views.py
+
+To make session :
+session['<session-id>'] = <value>
+
+To remove session variable :
+session.pop('<session-id>',None)
+
+We'll demonstrate how a simple login is made persistent using sessions.

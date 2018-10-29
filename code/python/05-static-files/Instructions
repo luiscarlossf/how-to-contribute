@@ -1,0 +1,19 @@
+Suppose you want to use some JavaScript / CSS (static files).
+
+These files are served in the 'static' folder of your package.
+
+Special end point static is used to generate URL for static files.
+
+Project-Directory
+	|
+	|--app/
+		|
+		| -- views.py
+		| -- static/
+			  | -- validate.js
+			  | -- styles.css
+		| -- templates/
+			  | -- login.html
+			  | -- about.html
+
+This way you can serve the front-end JavaScript and CSS with your HTML Files.

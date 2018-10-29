@@ -1,0 +1,31 @@
+redirect() function can be used.
+It returns a response object and redirects the user to another target location with specified status code.
+
+Project-Directory
+	|
+	|--run.py
+	|--app/
+		|
+		| -- views.py
+		| -- templates
+			   | -- error404.html
+
+
+Method : redirect(location,statuscode,response)
+
+location -> URL where the reponse should be redirected
+
+statuscode -> sent to browser header. Default is 302 (FOUND)
+Let's see how many you remember?
+
+response -> used to instantiate response
+
+Want examples? Look at all the previous instances we have been using this! :P
+
+Flask has 'abort()' function which can be used to send an error code. (Use it with conditions)
+
+Method : abort(errorCode). Common Codes : 400 - Bad Request, 401 - Unauthenticated, 403 - Forbidden, 404 - Not Found.
+
+
+You can use errorhandler decorator to make custom error pages for specific error codes.
+Can use this to create some fun and custom 404 error pages.

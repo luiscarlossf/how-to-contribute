@@ -1,45 +1,15 @@
-### playfair_cipher.py
- - Main functions :-
-    - `playfair_enc(key,pt)`
-        - _arguments_
-            - key (_string_ (no spaces)) **[reqd]**
-            - pt (_plaintext_) as a _string_ **[reqd]**
-        - _returns_
-            - list of strings each of length two
-    - `playfair_dec(key,ct)`
-        - _arguments_
-            - key (_string_ (no spaces)) **[reqd]**
-            - ct (_ciphertext_) as a _list_ of _strings_ i.e. the _ciphertext_ is split into chunks of length two(result of the `playfair_enc` function) **[reqd]**
-        - _returns_
-            - list of strings each of length two
-   > **NOTE** :
-   > - Both parameters passed i.e. key and plaintext/ciphertext have to be in lowercase. This can be done using the `str.lower()` function in python where `str` is the string variable you want to convert to lowercase.
-   >  - **[reqd]** states that the parameter/argument is a required one i.e. the function wouldn't work as desired if the **[reqd]** parameter is not passed
-   > - For the variable that is being returned, `''.join(list_of_strings)` could be used to just get a concatenated version of the strings. (It hasn't been implemented over here for brevity)
+# Flask Tutorial
 
- - **Eg:-**
-    ```python
-    from playfair_cipher import playfair_enc, playfair_dec
-    s = "man the wolf plugin for python in vscode is so cool"
-    k = "yeahbro"
+Here are some files (demo codes and Instructions/theory along with them) for the Flask Tutorial I made as part of my Scripting TAship.
 
-    encrypted_result = playfair_enc(k, s)
-    print(f'Encrypted result = {encrypted_result}')
-    print(f'Concatenated Encrypted result : {"".join(encrypted_result)}')
+The tutorial is inspired mostly from the following links:
 
-    print('\n')
+* [Flask Megatutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world-legacy)
+* [Flask - Tutorials Point](https://www.tutorialspoint.com/flask/index.htm)
 
-    decrypted_result = playfair_dec(k, encrypted_result)
-    print(f'Decrypted result = {decrypted_result}')
-    print(f'Concatenated Decrypted result : {"".join(decrypted_result)}')
-    ```
+But some ideas were also taken from the following links:
 
- - **Result :-**
-   ```
-   Encrypted result = ['kb', 'pn', 'ba', 'vc', 'md', 'si', 'yn', 'gp', 'rc', 'on', 'bn', 'ed', 'pg', 'pu', 'qd', 'cf', 'op', 'xh', 'pd', 'dc', 'di']
-   Concatenated Encrypted result : kbpnbavcmdsiyngprconbnedpgpuqdcfopxhpddcdi
-
-
-   Decrypted result = ['ma', 'nt', 'he', 'wo', 'lf', 'pl', 'ug', 'in', 'fo', 'rp', 'yt', 'ho', 'ni', 'nv', 'sc', 'od', 'ei', 'sx', 'so', 'co', 'ol']
-   Concatenated Decrypted result : manthewolfpluginforpythoninvscodeisxsocool
-   ```
+* [Simple Web App using Python Flask and MySql](https://code.tutsplus.com/tutorials/creating-a-web-app-from-scratch-using-python-flask-and-mysql--cms-22972)
+* [CRUD App using Flask](https://scotch.io/tutorials/build-a-crud-web-app-with-python-and-flask-part-one)
+* [CRUD App using Python and Flask](https://developer.okta.com/blog/2018/07/23/build-a-simple-crud-app-with-flask-and-python)
+* [Intro to Flask](https://overiq.com/flask/0.12/intro-to-flask/)

@@ -1,0 +1,21 @@
+The Following Directory Structure is Usually Followed :
+
+Project-Directory
+	|
+	|--	run.py
+	|-- app/
+		|
+		| -- static/
+		| -- templates/
+		| -- __init__.py
+		| -- views.py
+
+app Folder contains the application package.
+static has static sub-files like JavaScript, Images and CSS
+templates folder has the Templates
+
+__init__.py is to initialize the app.
+
+views.py contains various routes.
+
+run.py starts the development server with our application

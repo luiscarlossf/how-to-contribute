@@ -6,7 +6,7 @@
  * H/i - QUADRILATEROS
  * V/v - TRIANGULOS
  * D/d - POLIGONOS QUAISQUER
- * O/o - CIRCUNFERÊNCIAS
+ * O/o - CIRCUNFERÃŠNCIAS
  */
 
 // Bibliotecas utilizadas pelo OpenGL
@@ -37,7 +37,7 @@ struct Ponto
 	}
 };
 /***********************************************************************************/
-//VARIAVEIS UTILIZADAS NAS FUNÇÕES CRIADAS PELO ALUNO
+//VARIAVEIS UTILIZADAS NAS FUNÃ‡Ã•ES CRIADAS PELO ALUNO
 vector<Ponto> pontos, aux_pontos;
 int which_one;
 /***********************************************************************************/
@@ -58,7 +58,7 @@ void retaImediata(double x1, double y1, double x2, double y2);
 
 
 /*************************************************************************************/
-// FUNÇÕES IMPLEMENTADAS PELO ALUNO
+// FUNÃ‡Ã•ES IMPLEMENTADAS PELO ALUNO
 void brasenhamLine(vector <Ponto> p);
 void brasenhamLine2(double x1, double y1, double x2, double y2); //constroe a linha utilizando o Algoritmo de Brasenham
 void drawnQuad(vector <Ponto> p); // constroe um quadrado/retangulo com base no algoritmo de Brasenham
@@ -110,7 +110,7 @@ void reshape(int w, int h)
 	height = h;
 	glOrtho (0, w, 0, h, -1 , 1);
 
-	// muda para o modo GL_MODELVIEW (não pretendemos alterar a projecção
+	// muda para o modo GL_MODELVIEW (nÃ£o pretendemos alterar a projecÃ§Ã£o
 	// quando estivermos a desenhar na tela)
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
@@ -439,7 +439,7 @@ void retaImediata(double x1, double y1, double x2, double y2)
 	pontos.push_back(Ponto((int)x1, (int)y1));
 	pontos.push_back(Ponto((int)x2, (int)y2));
 
-	if(x2 - x1 != 0) //Evita a divisão por zero
+	if(x2 - x1 != 0) //Evita a divisÃ£o por zero
 	{
 		m = (y2 - y1) / (x2 - x1);
 		b = y1 - (m * x1);

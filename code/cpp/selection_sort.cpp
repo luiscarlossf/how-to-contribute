@@ -3,7 +3,7 @@
 using namespace std;
 
 int main()
-{
+{cout<<"Welcome to Selection Sort"<<endl;     
     int arr[7] = {4, 5, 3, 2, 7, 1, 6};
     int arrSize = sizeof(arr) / sizeof arr[0];
 

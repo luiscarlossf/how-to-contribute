@@ -22,7 +22,8 @@ int binary_search(int a[],int l,int r,int key)
 int main(int argc, char const *argv[])
 {
 	int n, key;
-	cout << "Enter size of array: ";
+	cout<<" Welcome to Binary Search"<<endl;
+        cout << "Enter size of array: ";
 	cin >> n;
 	cout << "Enter array elements: ";
 	int a[n];
